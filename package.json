@@ -1,0 +1,25 @@
+{
+  "name": "react-value-picker",
+  "description": "React based value picker with soft key support",
+  "version": "0.1.5",
+  "main": "src/index",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-core": "6.18.0",
+    "babel-loader": "6.2.1",
+    "babel-plugin-syntax-jsx": "6.8.0",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.5.0",
+    "file-loader": "0.8.5",
+    "webpack": "1.13.0"
+  },
+  "dependencies": {
+    "base-component": "git+ssh://git@git.kaiostech.com:shared/base_component.git",
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "soft-key-store": "git+ssh://git@git.kaiostech.com:shared/soft-key-store.git"
+  }
+}
