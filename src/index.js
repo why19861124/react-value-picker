@@ -145,7 +145,7 @@ export default class Picker extends BaseComponent {
         className="picker-root"
         ref={this.setRef}
       >
-        <h1 className="picker-title h1">Select {this.state.type}</h1>
+		<h1 className="picker-title h1" data-l10n-id={`select-${this.state.type}`}></h1>
         <div className="picker-wall">
           {
             this.columns.map((item, key) => {
