@@ -135,6 +135,7 @@ export default class Picker extends BaseComponent {
   };
 
   render() {
+	dump("senwa this.state.type = " + this.state.type);
     if (!this.state.oriColumns) {
       return null;
     }
