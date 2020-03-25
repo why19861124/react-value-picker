@@ -1,4 +1,4 @@
-const BASE_YEAR = 1970;
+const BASE_YEAR = 2000;
 
 const MIN_DATE = '1970-01-01';
 const MAX_DATE = '2035-12-31';
