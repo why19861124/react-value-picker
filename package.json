@@ -1,7 +1,7 @@
 {
   "name": "react-value-picker",
   "description": "React based value picker with soft key support",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "src/index",
   "scripts": {
     "build": "babel src -d lib"
