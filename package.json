@@ -14,7 +14,7 @@
     "babel-preset-react": "6.3.13",
     "babel-preset-stage-0": "6.5.0",
     "file-loader": "0.8.5",
-    "webpack": "1.13.0"
+    "webpack": "5.94.0"
   },
   "dependencies": {
     "base-component": "git+ssh://git@git.kaiostech.com:shared/base_component.git",
